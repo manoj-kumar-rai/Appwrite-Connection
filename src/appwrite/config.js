@@ -6,8 +6,8 @@ export const signup = async ({ name, email, password }) => {
     const user = await account.create(
         ID.unique(),
         email,
-        password,
-        name
+        name,
+        password
     );
 
     // 2. Save user in Database
@@ -17,8 +17,9 @@ export const signup = async ({ name, email, password }) => {
         documentId: ID.unique(),
         data: {
             userId: user.$id,
+            email,
             name,
-            email
+            password
         }
     });
 
