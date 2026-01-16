@@ -63,14 +63,27 @@
 
 // export default App;
 
-import UploadData from "./Part2/uploaddata.jsx";
+// import UploadData from "./Part2/uploaddata.jsx";
 
-function App() {
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <UploadData />
+//     </div>
+//   );
+// }
+
+// export default App
+
+import CreatingRow from "./Part2/CreatingRow.jsx";
+
+function App () {
   return (
-    <div className="App">
-      <UploadData />
+    <div>
+      <CreatingRow />
     </div>
   );
 }
 
-export default App
+export default App;
