@@ -8,7 +8,7 @@ export default function CreateingRow() {
 const tablesDB = new TablesDB(client);
 
 const data = {
-    name: "Rahul Rai",
+    name: "Sapna Rai",
         email: "iamrahulrai123@gmail.com",
         password: "poptato@1234"
 }
